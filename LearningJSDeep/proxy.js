@@ -1,0 +1,10 @@
+const coefficients = {
+  a:1, 
+  b:2,
+  c:5,
+}
+
+function evaluate(x,co){
+  return co.a + co.b * x + co.c * Math.pow(x,2); 
+}
+
