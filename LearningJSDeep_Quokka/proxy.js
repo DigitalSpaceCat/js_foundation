@@ -7,4 +7,3 @@ const coefficients = {
 function evaluate(x,co){
   return co.a + co.b * x + co.c * Math.pow(x,2); 
 }
-
